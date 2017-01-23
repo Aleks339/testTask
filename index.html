@@ -5,17 +5,15 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link type ="text/css" href = "styles.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<style>
 		.jumborton{
-			background-color:#DA70D6;
-			color:black;
 			width:100%;
 			height:120%;
 		}
-		.green {
-			background-color: green;
+		rect {
 			width:20%;
 			height: 50px;
 			position:relative;
@@ -27,7 +25,7 @@
 <body>
 
    <header>
-   <div class = "jumborton">
+   <div class = "jumborton violet">
    	<div class = "container">
    	 <div class = "row">
       <div class = "col-md-2 col-sm-12">
@@ -85,11 +83,11 @@
      <div class = "container">
       <div class = "row">
         <div class = "jumborton">
-          <svg class = "col-sm-2 col-xs-9" style = "background-color: green; position: relative; top: 40px;  height: 170px">
+          <svg class = "col-sm-2 col-xs-9 green" style = " position: relative; top: 40px;  height: 170px">
             <!-- circle picture at the top of the article -->
             <circle r = "47" cx="47" cy="75" fill = "#DA70D6"></circle>
           </svg>
-          <div class = "col-sm-6 col-xs-9" style = "background-color: green; position: relative; top: 40px; height: 170px">
+          <div class = "col-sm-6 col-xs-9 green" style = " position: relative; top: 40px; height: 170px">
           <br>
             <p style = "font-weight: bold;">Lorem ipsum is simply dummy text</p>      
             <p>
@@ -125,7 +123,7 @@
 
         <div class = "col-sm-5 col-xs-12" style=" position: relative; top: 60px; margin-right: 70px"> 
         <!-- the first one -->
-        <div style = "width:360px; height:100px; background-color: green;"></div>
+        <div style = "width:360px; height:100px;" class = "green"></div>
         <!--description of the first one --> 
         <h3>HEADING</h3>
           <p>
@@ -137,8 +135,8 @@
           </div>
 
           <div class = "col-sm-5 col-xs-12" style=" position: relative; top: 60px;">
-          <!-- the first one -->
-          <div style = "width:360px; height:100px; background-color: green;"></div>
+          <!-- the second one -->
+          <div style = "width:360px; height:100px;" class = "green"></div>
           <!--description of the second one -->
           <h3>HEADING</h3>
           <p>
@@ -148,52 +146,41 @@
           Tincidunt id augue.
           </p>
           </div>
+          
+          <div class = "col-sm-5 col-xs-12" style=" position: relative; top: 60px; margin-right: 70px">
+          <!-- the third one -->
+          <div style = "width:360px; height:100px;" class = "green"></div>
+          <!--description of the third one -->
+          <h3>HEADING</h3>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet arcu est. 
+          Praesent lobortis semper luctus. Nullam diam eros, venenatis rhoncus luctus id. 
+          Etiam ullamcorper pharetra euismod. Donec sodales lorem et quam ullamcorper. 
+          Tincidunt id augue.
+          </p>
+          </div>
+          
+           <div class = "col-sm-5 col-xs-12" style=" position: relative; top: 60px;">
+          <!-- the fourth one -->
+          <div style = "width:360px; height:100px;"  class = "green"></div>
+          <!--description of the fourth one -->
+          <h3>HEADING</h3>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet arcu est. 
+          Praesent lobortis semper luctus. Nullam diam eros, venenatis rhoncus luctus id. 
+          Etiam ullamcorper pharetra euismod. Donec sodales lorem et quam ullamcorper. 
+          Tincidunt id augue.
+          </p>
+          </div>
+          
+          <div class = "col-sm-6 col-xs-12" style=" position: relative; top: 160px; left:35%;">
+             <button type = "submit" class = "btn btn-lg violet">ORDER</button>
+          </div>
 
           </div>
       </div>
    </article>
 
-    <nav>
-    <div class="col-md-3">
-            <div class="sidebar-nav-fixed pull-right affix">
-                <div class="well">
-                    <ul class="nav ">
-                        <li class="nav-header">Sidebar</li>
-                        <li class="active"><a href="#">Link</a>
-                        </li>
-                        <li><a href="#">Link</a>
-                        </li>
-                        <li><a href="#">Link</a>
-                        </li>
-                        <li><a href="#">Link</a>
-                        </li>
-                        <li class="nav-header">Sidebar</li>
-                        <li><a href="#">Link</a>
-                        </li>
-                        <li><a href="#">Link</a>
-                        </li>
-                        <li><a href="#">Link</a>
-                        </li>
-                        <li><a href="#">Link</a>
-                        </li>
-                        <li><a href="#">Link</a>
-                        </li>
-                        <li><a href="#">Link</a>
-                        </li>
-                        <li class="nav-header">Sidebar</li>
-                        <li><a href="#">Link</a>
-                        </li>
-                        <li><a href="#">Link</a>
-                        </li>
-                        <li><a href="#">Link</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--/.well -->
-            </div>
-            <!--/sidebar-nav-fixed -->
-        </div>
-        </nav>
    
 
 </body>
