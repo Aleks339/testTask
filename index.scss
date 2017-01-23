@@ -1,0 +1,12 @@
+$violet:#DA70D6;
+$green:green;
+$black:black;
+
+.violet {
+    background-color:darken($violet, 10%);
+    color:$black;
+}
+.green {
+    background-color:$green;
+    color:$black;
+}
