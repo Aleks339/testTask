@@ -5,3 +5,7 @@
 .green {
   background-color: green;
   color: black; }
+
+.blue:hover {
+  background-color: blue;
+  color: blue; }
