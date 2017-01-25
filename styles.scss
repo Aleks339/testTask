@@ -1,12 +1,18 @@
 $violet:#DA70D6;
 $green:green;
 $black:black;
+$hover:blue;
+$active:red;
 
 .violet {
-    background-color:darken($violet, 10%);
+    background-color:$violet;
     color:$black;
 }
 .green {
     background-color:$green;
     color:$black;
+}
+.blue:hover {
+    background-color: $hover;
+    color:$hover;
 }
